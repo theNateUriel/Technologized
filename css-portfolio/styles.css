@@ -15,6 +15,10 @@ header {
   color: #000069;
 }
 
+header a.headlogo {
+  font-size: 3vh 3vw;
+}
+
 header a.headlogo:visited {
   color: #000069;
 }
@@ -36,7 +40,7 @@ footer {
   font-family: arial;
   letter-spacing: 0.5vw;
   font-weight: normal;
-  font-size: 0.5vw;
+  font-size: 0.3vw 0.3vh;
 }
 
 ul {
@@ -50,25 +54,29 @@ ul li {
   display: inline-block;
 }
 
+.navbar {
+  font-size: 2vh 5vw;
+}
+
 ul li a {
   text-decoration: none;
   color: #fff;
-  padding: 5px 20px;
-  border: 1px solid transparent;
+  padding: 1vh 1vw;
+  border: 1vh 1vw solid transparent;
   transition: 0.5 ease;
 }
 
 ul li a:hover {
   background-color: rgba(109, 238, 255, 0.5);
   color: #000;
-  border-radius: 10px;
+  border-radius: 1vw;
   background-clip: padding-box;
 }
 
 ul li.active a {
   background-color: #fff;
   color: #000;
-  border-radius: 10px;
+  border-radius: 1vw;
   background-clip: padding-box;
 }
 
