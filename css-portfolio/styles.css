@@ -40,7 +40,7 @@ footer {
   font-family: arial;
   letter-spacing: 0.5vw;
   font-weight: normal;
-  font-size: 0.3vw 0.3vh;
+  font-size: 10px;
 }
 
 ul {
@@ -55,7 +55,7 @@ ul li {
 }
 
 .navbar {
-  font-size: 2vh 5vw;
+  font-size: 15px;
 }
 
 ul li a {
