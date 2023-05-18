@@ -1,5 +1,63 @@
+@keyframes entrance {
+  0% {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 div.team {
-  margin-left: 5%;
-  margin-top: 8%;
-  font-size: 30px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 225, 255, 0.5);
+  background-size: cover;
+  border-radius: 5px;
+  animation: entrance 5s ease-in-out;
+}
+
+div.team h1.meetteam {
+  color: rgb(8, 0, 121);
+  text-align: center;
+  margin-top: 20px;
+}
+
+div.team div.members {
+  text-align: center;
+}
+
+div.team div.members ul.membs {
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.team div.members ul.membs li {
+  display: inline-block;
+  margin: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+ul.membs li a {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  margin: 15px;
+}
+
+ul.membs li img {
+  align-items: center;
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+ul.membs li p {
+  text-align: center;
+  margin: 10px;
 }

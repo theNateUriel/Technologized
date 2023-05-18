@@ -1,0 +1,160 @@
+@keyframes lentrance {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes rentrance {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes dentrance {
+  0% {
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes tuentrance {
+  0% {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+div.intro {
+  margin: 50px;
+  justify-content: center;
+  background-color: rgba(0, 225, 255, 0.5);
+  background-size: cover;
+  border-radius: 5px;
+  animation: dentrance 5s ease-in-out;
+}
+
+div.intro p {
+  margin: 50px;
+  text-align: left;
+  color: rgb(246, 255, 167);
+  font-size: 20px;
+  text-indent: 2em;
+  overflow-wrap: break-word;
+}
+
+div.cont1 {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+  justify-content: center;
+  background-color: rgba(0, 225, 255, 0.5);
+  background-size: cover;
+  border-radius: 5px;
+  animation: rentrance 5s ease-in-out;
+}
+
+div.cont1 h1 {
+  margin: 50px;
+  justify-content: center;
+  background-color: rgba(0, 225, 255, 0.5);
+  background-size: cover;
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(8, 0, 121);
+  animation: tuentrance 7s ease-in-out;
+}
+
+div.cont1 p {
+  text-align: left;
+  color: rgb(246, 255, 167);
+  font-size: 20px;
+  margin: 20px;
+  text-indent: 2em;
+  animation: rentrance 7s ease-in-out;
+  overflow-wrap: break-word;
+}
+
+div.cont2 {
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+  background-color: rgba(0, 225, 255, 0.5);
+  background-size: cover;
+  border-radius: 5px;
+  animation: lentrance 5s ease-in-out;
+}
+
+div.cont2 h1 {
+  margin: 50px;
+  justify-content: center;
+  background-color: rgba(0, 225, 255, 0.5);
+  background-size: cover;
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(8, 0, 121);
+  animation: tuentrance 7s ease-in-out;
+}
+
+div.cont2 p {
+  text-align: right;
+  color: rgb(246, 255, 167);
+  font-size: 20px;
+  margin: 20px;
+  text-indent: 2em;
+  animation: lentrance 7s ease-in-out;
+  overflow-wrap: break-word;
+}
+
+div.cont3 {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+  justify-content: center;
+  background-color: rgba(0, 225, 255, 0.5);
+  background-size: cover;
+  border-radius: 5px;
+  animation: rentrance 5s ease-in-out;
+}
+
+div.cont3 h1 {
+  margin: 50px;
+  justify-content: center;
+  background-color: rgba(0, 225, 255, 0.5);
+  background-size: cover;
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(8, 0, 121);
+  animation: tuentrance 7s ease-in-out;
+}
+
+div.cont3 p {
+  text-align: left;
+  color: rgb(246, 255, 167);
+  font-size: 20px;
+  margin: 20px;
+  text-indent: 2em;
+  animation: rentrance 7s ease-in-out;
+  overflow-wrap: break-word;
+}

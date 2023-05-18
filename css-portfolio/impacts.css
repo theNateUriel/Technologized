@@ -1,0 +1,126 @@
+@keyframes lentrance {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes rentrance {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes dentrance {
+  0% {
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes tuentrance {
+  0% {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+div.intro {
+  margin: 50px;
+  justify-content: center;
+  background-color: rgba(0, 225, 255, 0.5);
+  background-size: cover;
+  border-radius: 5px;
+  animation: dentrance 5s ease-in-out;
+}
+
+div.intro p {
+  margin: 50px;
+  text-align: left;
+  color: rgb(246, 255, 167);
+  font-size: 20px;
+  text-indent: 2em;
+}
+
+div.impact {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+
+div.impact h1 {
+  text-align: center;
+  background-color: rgba(0, 225, 255, 0.5);
+  color: rgb(8, 0, 121);
+  background-size: cover;
+  border-radius: 5px;
+  margin: 20px;
+  animation: tuentrance 5s ease-in-out;
+}
+
+div.impact div.positive h2 {
+  text-align: right;
+  background-color: rgba(0, 225, 255, 0.5);
+  background-size: cover;
+  border-radius: 5px;
+  margin: 20px;
+  color: rgb(8, 0, 121);
+  animation: lentrance 5s ease-in-out;
+}
+
+div.impact div.positive p {
+  text-align: right;
+  background-color: rgba(0, 225, 255, 0.5);
+  background-size: cover;
+  border-radius: 5px;
+  margin: 20px;
+  color: rgb(246, 255, 167);
+  font-size: 20px;
+  text-indent: 2em;
+  animation: rentrance 5s ease-in-out;
+}
+
+div.impact div.positive p a {
+  background-color: rgba(0, 225, 255, 0.5);
+  color: rgb(8, 0, 121);
+  animation: lentrance 5s ease-in-out;
+}
+
+div.impact div.negative h2 {
+  text-align: left;
+  background-color: rgba(0, 225, 255, 0.5);
+  background-size: cover;
+  border-radius: 5px;
+  margin: 20px;
+  color: rgb(8, 0, 121);
+  animation: rentrance 5s ease-in-out;
+}
+
+div.impact div.negative p {
+  text-align: left;
+  background-color: rgba(0, 225, 255, 0.5);
+  background-size: cover;
+  border-radius: 5px;
+  margin: 20px;
+  color: rgb(246, 255, 167);
+  font-size: 20px;
+  text-indent: 2em;
+  animation: lentrance 5s ease-in-out;
+}

@@ -43,14 +43,14 @@ footer {
   font-size: 10px;
 }
 
-ul {
+ul.navbar {
   float: right;
   list-style-type: none;
   margin-top: 12vh;
   margin-right: 3vw;
 }
 
-ul li {
+ul.navbar li {
   display: inline-block;
 }
 
@@ -58,7 +58,7 @@ ul li {
   font-size: 15px;
 }
 
-ul li a {
+ul.navbar li a {
   text-decoration: none;
   color: #fff;
   padding: 1vh 1vw;
@@ -66,14 +66,14 @@ ul li a {
   transition: 0.5 ease;
 }
 
-ul li a:hover {
+ul.navbar li a:hover {
   background-color: rgba(109, 238, 255, 0.5);
   color: #000;
   border-radius: 1vw;
   background-clip: padding-box;
 }
 
-ul li.active a {
+ul.navbar li.active a {
   background-color: #fff;
   color: #000;
   border-radius: 1vw;
